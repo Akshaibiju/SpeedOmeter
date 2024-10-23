@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speedOmeter</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+<body>
+    <div class="nav">
+        <img width="48" height="48" src="https://img.icons8.com/fluency/48/android-os.png" alt="android-os"/>
+        <h1>  Delta</h1>
+        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/more.png" alt="more" class="more"/>
+    </div>
+    <div class="container">
+        <h1>Real-Time Network Speed Checker</h1>
+        <canvas id="speedMeter" width="400" height="200"></canvas>
+        <div id="speed-info">
+            <p id="speed">Speed: <span id="speed-value">0</span> Mbps</p>
+            <p id="latency">Latency: <span id="latency-value">0</span> ms</p>
+            <p id="ping">Ping: <span id="ping-value">0</span> ms</p>
+            <p id="strength">Network Strength: <span id="strength-value">Unknown</span></p>
+        </div>
+        <button id="check-speed">Check Speed</button>
+    
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
